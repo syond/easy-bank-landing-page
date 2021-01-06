@@ -1,0 +1,12 @@
+:root {
+    --primary: hsl(233, 26%, 24%);
+    --secondary: hsl(136, 65%, 51%);
+    --tertiary: hsl(192, 70%, 51%);
+    --quaternary: hsl(233, 8%, 62%);
+    --quinary: hsl(220, 16%, 96%);
+    --senary: hsl(0, 0%, 98%);
+    --septenary: hsl(0, 0%, 100%);
+
+
+    --fontSizeBody: 1.125rem;
+}
