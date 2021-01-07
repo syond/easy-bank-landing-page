@@ -12,6 +12,12 @@
     outline: 0;
 
     color: var(--septenary);
+    transition: 300ms ease-in-out;
 
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(to right, var(--secondary), var(--tertiary));
+}
+
+.button:hover{
+    opacity: 0.75;
+    
 }
