@@ -1,5 +1,54 @@
 @import "./global.css";
 @import "./variables.css";
-@import "./breakpoints.css";
 
 @import "./_container.css";
+@import "./_header.css";
+
+
+
+
+/*  Testando aqui rapidao, apagar depois */
+main > section:first-child{
+    background-color: var(--quinary);
+
+    height: 400px;
+}
+
+
+
+
+/* tablet version */
+@media screen and (min-width: 620px){}
+/* tablet version */
+@media screen and (min-width: 960px){
+    header > nav > .menu-container-toggler {
+        display: none;
+    }
+
+    header > nav > .menu-container {
+        position: static;
+        
+        top: 0;
+
+        background-color: transparent;
+
+        display: flex;
+    }
+
+    header > nav > .menu-container > ul {
+        display: flex;
+        align-items: center;
+    }
+
+    header > nav > .menu-container > ul > li {
+        padding: 0 10px;
+
+        color: var(--quaternary);
+    }
+    
+    header > nav > .button {
+        display: block;
+    }
+}
+/* desktop version */
+@media screen and (min-width: 1100px){}

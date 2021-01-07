@@ -1,0 +1,40 @@
+header > nav > .menu-container {
+    position: absolute;
+
+    max-width: 80%;
+
+    right: 0;
+    top: -100%;
+    left: 0;
+
+    margin: auto;
+    padding: 20px;
+
+    transition: all .5s;
+
+    background-color: white;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+header > nav > .toggle-menu-container {
+    top: 88px;
+}
+
+header > nav > .menu-container > ul > li {
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+
+/* Classes auxiliares para visibilidade de elementos. 
+Ver depois um lugar onde colocar e importar. */
+.display-none {
+    display: none;
+}
+

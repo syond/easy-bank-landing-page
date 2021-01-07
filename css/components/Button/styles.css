@@ -1,0 +1,17 @@
+.button {
+    text-align: center;
+
+    padding: 12px;
+
+    width: 170px;
+
+    border: 1px solid;
+    border-radius: 30px;
+    border-style: none;
+
+    outline: 0;
+
+    color: var(--septenary);
+
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}

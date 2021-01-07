@@ -1,0 +1,14 @@
+@import "./components/Button/styles.css";
+@import "./components/Menu/styles.css";
+
+header > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+header > nav > .button {
+    display: none;
+}
