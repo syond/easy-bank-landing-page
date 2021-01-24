@@ -1,0 +1,23 @@
+.button {
+    text-align: center;
+
+    padding: 12px;
+
+    width: 170px;
+
+    border: 1px solid;
+    border-radius: 30px;
+    border-style: none;
+
+    outline: 0;
+
+    color: var(--septenary);
+    transition: 300ms ease-in-out;
+
+    background: linear-gradient(to right, var(--secondary), var(--tertiary));
+}
+
+.button:hover{
+    opacity: 0.75;
+    
+}
