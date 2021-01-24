@@ -1,0 +1,35 @@
+@import "./components/Section/styles.css";
+main>.next-generation {
+    margin-bottom: 6.25rem;
+}
+
+main>.next-generation>.next-generation-text {
+    text-align: center;
+    padding: 0 1.25rem 1.75rem 1.25rem;
+}
+
+main>.next-generation>.next-generation-text>h2 {
+    color: var(--primary);
+    margin-bottom: 1.25rem;
+}
+
+main>.next-generation>.next-generation-text>span {
+    line-height: 1.7rem;
+    color: var(--quaternary);
+}
+
+main>.next-generation>.next-generation-images>img {
+    width: 100%;
+    padding: 1.25rem 1.25rem 0 1.25rem;
+}
+
+main>.next-generation>.next-generation-images {
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+main>.why-choose {}
+
+main>.latest-articles {}
